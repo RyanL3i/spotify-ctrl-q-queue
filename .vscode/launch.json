@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:spotify-queue-hotkey}",
+            "name": "Debug spotify-queue-hotkey",
+            "target": "spotify-queue-hotkey",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug spotify-queue-hotkey"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:spotify-queue-hotkey}",
+            "name": "Release spotify-queue-hotkey",
+            "target": "spotify-queue-hotkey",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release spotify-queue-hotkey"
+        }
+    ]
+}
